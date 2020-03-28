@@ -1,7 +1,7 @@
 const path = require("path")
 const fs = require("fs")
 
-const dirPath = path.join(__dirname, "../posts")
+const dirPath = path.join(__dirname, "./posts")
 let postlist = []
 
 const months = {
