@@ -9,7 +9,7 @@ media_folder: "public/images"
 public_folder: "/images" 
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+  - name: "public/posts" # Used in routes, e.g., /admin/collections/blog
     label: "Blog Posts" # Used in the UI
     folder: "posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
