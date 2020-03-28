@@ -21,5 +21,5 @@ jobs:
       run: |
         git config --global user.email "nobak.dev@gmail.com"
         git config --global user.name "nobakent"
-        git remote set-url origin https://03a16a600fa2d1de37f83751df744977e51ad7ef@github.com/nobakent/nobakent.github.io.git
+        git remote set-url origin https://e1d4141a322dfc2aa6d7d413f08cda2248924c9b>@github.com/nobakent>/nobakent.github.io>.git
         npm run deploy
