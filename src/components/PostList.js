@@ -16,11 +16,11 @@ function PostList() {
                 postlist.map((post, i) => {
                     return (
                         <div key={i} className="post-card">
-                            <h2><Link to={`/nobak-app/post/${post.id}`}>{post.title}</Link></h2>
+                            <h2><Link to={`/post/${post.id}`}>{post.title}</Link></h2>
                             <small>Published on {post.date} by {post.author}</small>
                             <hr />
                             <Markdown source={excerptList[i]} escapeHtml={false} />
-                            <small><Link to={`/nobak-app/post/${post.id}`}>Read More...</Link></small>
+                            <small><Link to={`/post/${post.id}`}>Read More...</Link></small>
                         </div>
                     )
                 })
