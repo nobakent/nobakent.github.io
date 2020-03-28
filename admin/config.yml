@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: nobakent/nobakent.github.io
-  branch: master
+  branch: development
   site_domain: jovial-goldwasser-a33480.netlify.com
 
 # These lines should *not* be indented
