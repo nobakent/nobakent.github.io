@@ -18,8 +18,6 @@ jobs:
     - name: Install Packages
       run: npm install
     - name: Deploy to GH Pages
-      run: |
-        git config --global user.email "nobak.dev@gmail.com"
-        git config --global user.name "nobakent"
-        git remote set-url origin https://deployjob@github.com/nobakent/nobakent.github.io.git
-        npm run deploy
+      run: npm run deploy
+    - name: Updating Domain
+      run: echo "Update domain"
