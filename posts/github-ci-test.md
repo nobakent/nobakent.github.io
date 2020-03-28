@@ -1,6 +1,0 @@
----
-title: GITHUB CI TEST
-author: HUSEINK
-date: 2020-03-28T22:40:06.083Z
----
-JKASJDKSAJKDSKA
