@@ -11,7 +11,7 @@ const Styles = styled.div`
         color:#e1e1e1;
     }
     .postlist{
-        padding:5px 0;
+        padding:2em 0;
         width:80%;
         margin: auto;
         text-align: center;
@@ -30,8 +30,8 @@ const Styles = styled.div`
         font-size:25px;
         text-decoration:underline;
         overflow-wrap:break-word;
-
     }
+    
 
     .post-desc{
         color:#9d9d9d;
@@ -58,6 +58,9 @@ const Styles = styled.div`
         .post-card{
             width:80%;
             margin:0 auto;
+        }
+        .post-desc{
+            width:100%;
         }
       }
 `;

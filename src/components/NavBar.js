@@ -20,6 +20,10 @@ const Styles = styled.div`
     .nav-link{
         margin-right:5px;
         font-weight:400;
+        transition: all .1s ease-in-out;
+    }
+    .nav-link:hover{
+        transform: scale(1.05);
     }
 `;
 

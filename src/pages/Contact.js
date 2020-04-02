@@ -1,10 +1,14 @@
 import React from 'react'
+import styled from 'styled-components';
 
+
+const Styles = styled.div`
+    overflow-x: hidden;
+`;
 function Contact() {
     return (
-        <div>
-        </div>
-
+        <Styles>
+        </Styles>
     )
 }
 

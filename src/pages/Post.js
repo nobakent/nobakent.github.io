@@ -5,9 +5,27 @@ import Markdown from 'react-markdown'
 import styled from 'styled-components'
 
 const Styles = styled.div`
+    margin:2em 0;
+
     .post{
-        width: 40%;
+        width: 50%;
         margin:auto;
+        height:100vh;
+        border:1px solid #dbdbdb;
+        padding:1em 1em;
+    }
+
+    .post > h2{
+        font-weight:600;
+        font-size:3em;
+    }
+    .post > small{
+        font-weight:600;
+        color:#7f7f7f;
+    }
+    .desc{
+        font-size:1em;
+        font-weight:600;
     }
 `;
 
@@ -39,7 +57,7 @@ function Post(props) {
                 <h2>{fetchedPost.title}</h2>
                 <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
                 <hr />
-                <Markdown source={fetchedPost.content} escapeHtml={false} />
+                <Markdown className="desc" source={fetchedPost.content} escapeHtml={false} />
             </div>
         </Styles>
     )

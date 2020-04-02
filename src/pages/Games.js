@@ -6,7 +6,8 @@ import BlogPreview from '../components/BlogThumb'
 import Feedback from '../components/Feedback'
 
 const Styles = styled.div`
-  
+    overflow-x: hidden;
+    
 `;
 
 function Games() {

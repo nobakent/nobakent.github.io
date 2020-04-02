@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import PostList from '../components/PostList'
 
 const Styles = styled.div`
+    overflow-x:hidden;
     .postlist{
         padding-top:3em;
         width: 40%;

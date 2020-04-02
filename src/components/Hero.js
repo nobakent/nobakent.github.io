@@ -16,9 +16,14 @@ const Styles = styled.div`
         width:25em;
         margin-left:5em;
     }
+    a{
+        transition: all .2s ease-in-out;
+    }
+    a:hover{
+        transform: scale(1.04);
+    }
     .jumbo-text{
         margin:auto 0;
-       
     }
     .jumbo-title{
         font-weight:700;
@@ -48,7 +53,11 @@ const Styles = styled.div`
         }
         .jumbo-image{
             width:25em;
-            margin-left:1em;
+            margin:0 auto;
+        }
+        a{
+            width:80% !important;
+            margin:0 auto;
         }
       }
     

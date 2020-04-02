@@ -9,6 +9,8 @@ const FooterContainer = styled.footer`
         font-family: 'Poppins', serif;
         background-color:#171717;
 
+        padding:1em 0;
+
         .copyright{
             font-size:15px;
             font-weight:600;
@@ -34,14 +36,13 @@ const FooterContainer = styled.footer`
         .social p{
             font-size:15px;
         }
-
         .social-link{
             font-size:17px;
-            margin-right:10px;
-
+            margin-right:1em;
+            transition: all .2s ease-in-out;
         }
         .social-link:hover{
-            font-size:18px;
+            transform: scale(1.2);
             color:#d1d1d1;
         }
        
