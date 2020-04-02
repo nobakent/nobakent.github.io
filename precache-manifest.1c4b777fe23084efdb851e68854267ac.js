@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13fc17842c9f65ddfd926ccb78d0832c",
+    "revision": "e15de89c8acd859af319b638a41702e5",
     "url": "/index.html"
   },
   {
-    "revision": "25243a4b22e5f36d9286",
+    "revision": "70e507d0b78b8f696324",
     "url": "/static/css/2.8e9f1564.chunk.css"
   },
   {
-    "revision": "03b966df855df93805d6",
+    "revision": "5328fa79e25aad080293",
     "url": "/static/css/main.27fd15f6.chunk.css"
   },
   {
-    "revision": "25243a4b22e5f36d9286",
-    "url": "/static/js/2.4084b684.chunk.js"
+    "revision": "70e507d0b78b8f696324",
+    "url": "/static/js/2.cd5a4b14.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/static/js/2.4084b684.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cd5a4b14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03b966df855df93805d6",
-    "url": "/static/js/main.8b909255.chunk.js"
+    "revision": "5328fa79e25aad080293",
+    "url": "/static/js/main.c1c7c8d8.chunk.js"
   },
   {
     "revision": "e6dccaa43005cf21c52c",
     "url": "/static/js/runtime-main.a9940558.js"
   },
   {
-    "revision": "24a5b52e55fc9b09c1ee9a7b22b7727c",
-    "url": "/static/media/nola-poster-2.24a5b52e.jpeg"
+    "revision": "a02b61b739c936680d660fd60fe156d8",
+    "url": "/static/media/bg.a02b61b7.jpg"
+  },
+  {
+    "revision": "343d853f10993e9ec1f20e9fb427a23f",
+    "url": "/static/media/nola-1.343d853f.png"
   },
   {
     "revision": "46a15b4fc54cfca883f84d6dd080cd3d",
