@@ -6,7 +6,7 @@ import Markdown from 'react-markdown'
 
 function PostListThumb() {
     const excerptList = postlist.map(post => {
-        return post.content.split(" ").slice(0, 20).join(" ")
+        return post.content.split(" ").slice(0, 10).join(" ")
     })
     return (
         <div className="postlist row">
