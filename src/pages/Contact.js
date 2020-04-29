@@ -126,13 +126,13 @@ function Contact() {
                 <Form className="contact-form" onSubmit={sendEmail}>
                     <Row>
                         <Col sm={12} md={6} lg={6}>
-                            <Form.Control placeholder="Name" type="text" name="from_name" id="from_name" /></Col>
+                            <Form.Control placeholder="Name" type="text" name="from_name" id="from_name" required/></Col>
                         <Col sm={12} md={6} lg={6}>
-                            <Form.Control placeholder="Email" type="email" name="from_email" id="from_email" /></Col>
+                            <Form.Control placeholder="Email" type="email" name="from_email" id="from_email" required/></Col>
                     </Row>
                     <Row>
 
-                        <Form.Control placeholder="Message" as="textarea" name="message_html" id="message_html" />
+                        <Form.Control placeholder="Message" as="textarea" name="message_html" id="message_html" required />
                     </Row>
                     <Row>
                         <Button variant="dark" type="submit" >Send</Button>
