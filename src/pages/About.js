@@ -140,7 +140,7 @@ function About() {
                         <Card.Text>
                         Project leader, Marketing Officer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/atakan-kara%C3%A7al%C4%B1-618831170/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/atakan-kara%C3%A7al%C4%B1-618831170/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -150,7 +150,7 @@ function About() {
                         <Card.Text>
                         Game Designer, Graphic Designer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/hasan-kamil%C3%A7elebi-6083821a3/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/hasan-kamil%C3%A7elebi-6083821a3/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -160,7 +160,7 @@ function About() {
                         <Card.Text>
                             Lead Developer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/h%C3%BCsein-kantarci-44861b1a2/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/h%C3%BCsein-kantarci-44861b1a2/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -170,7 +170,7 @@ function About() {
                         <Card.Text>
                             Developer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/didem-%C3%A7i%C3%A7ek-kara%C3%B6z-132a56148/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/didem-%C3%A7i%C3%A7ek-kara%C3%B6z-132a56148/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -180,7 +180,7 @@ function About() {
                         <Card.Text>
                             Developer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/mertcan-karata%C5%9F-a2a151195/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/mertcan-karata%C5%9F-a2a151195/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -190,7 +190,7 @@ function About() {
                         <Card.Text>
                         Graphic Designer
                         </Card.Text>
-                        <Button variant="dark"><a href='https://www.linkedin.com/in/emine-tsiligkir-72b2251a3/' target="_blank">Contact</a></Button>
+                        <Button variant="dark"><a href='https://www.linkedin.com/in/emine-tsiligkir-72b2251a3/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
                 </CardColumns>
