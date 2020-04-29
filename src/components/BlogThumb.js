@@ -66,7 +66,7 @@ backface-visibility: hidden;
     @media only screen and (max-width: 992px) {
         .post-card{
             width:90%;
-            margin:0 auto;
+            margin:1em auto;
         }
         .post-card > h2{
             font-size:1em;

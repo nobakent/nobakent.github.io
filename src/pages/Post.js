@@ -43,7 +43,7 @@ const Styles = styled.div`
         .post{
             width: 100%;
             border:1px solid #dbdbdb;
-            padding:1em 3em;
+            padding:1em 1.2em;
         }
         img{
             width:100%;
