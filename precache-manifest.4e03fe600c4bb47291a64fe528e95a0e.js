@@ -1,39 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ce7c0f6f082ba994ef03d8a4873c8df",
+    "revision": "6623d7e72ec92133ba9b05e005a76414",
     "url": "/index.html"
   },
   {
-    "revision": "bcfd875788af3fa33a1a",
+    "revision": "02695e85a4d9cc596c00",
     "url": "/static/css/2.8e9f1564.chunk.css"
   },
   {
-    "revision": "31aafcec7b41b1d4aea3",
+    "revision": "ee447f85965e6e127957",
     "url": "/static/css/main.27fd15f6.chunk.css"
   },
   {
-    "revision": "bcfd875788af3fa33a1a",
-    "url": "/static/js/2.0c3f35dd.chunk.js"
+    "revision": "02695e85a4d9cc596c00",
+    "url": "/static/js/2.ba693ea6.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/static/js/2.0c3f35dd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ba693ea6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31aafcec7b41b1d4aea3",
-    "url": "/static/js/main.2864f342.chunk.js"
+    "revision": "ee447f85965e6e127957",
+    "url": "/static/js/main.f82cf703.chunk.js"
   },
   {
     "revision": "33ffc2680a8e69875d5a",
     "url": "/static/js/runtime-main.591cd1af.js"
   },
   {
+    "revision": "3f9ad3da097c327d516ad4c7b3d294de",
+    "url": "/static/media/atakan.3f9ad3da.jpg"
+  },
+  {
     "revision": "a02b61b739c936680d660fd60fe156d8",
     "url": "/static/media/bg.a02b61b7.jpg"
   },
   {
-    "revision": "343d853f10993e9ec1f20e9fb427a23f",
-    "url": "/static/media/nola-1.343d853f.png"
+    "revision": "7b7c0ed5c683749834a3f07def52aab5",
+    "url": "/static/media/didem.7b7c0ed5.jpg"
+  },
+  {
+    "revision": "8b23baac7d56d5aa76e135ab18caf39c",
+    "url": "/static/media/emine.8b23baac.jpg"
+  },
+  {
+    "revision": "8195bc33c477a9a38ec3251cf552a92a",
+    "url": "/static/media/hasan_kamilcelebi.8195bc33.jpg"
+  },
+  {
+    "revision": "fd38cf0c5baeb84c3d2d5d13defa3bbf",
+    "url": "/static/media/husein_kantarci.fd38cf0c.jpg"
+  },
+  {
+    "revision": "a8a5d9f0bea8696e86778929401836e4",
+    "url": "/static/media/mert_karatas.a8a5d9f0.jpg"
+  },
+  {
+    "revision": "fbe129744e793a12314a8c6e1cde9388",
+    "url": "/static/media/nola-1.fbe12974.png"
   },
   {
     "revision": "46a15b4fc54cfca883f84d6dd080cd3d",
