@@ -49,6 +49,10 @@ backface-visibility: hidden;
             padding:2em;
             text-align: center;
         }
+        
+        .post-card > h2{
+            font-size:1.5em;
+        }
         .post-desc{
             width:100%;
         }

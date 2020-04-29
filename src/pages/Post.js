@@ -9,11 +9,16 @@ const Styles = styled.div`
     margin-bottom:1em;
     background-color:#f7f7f7;
     .post{
-        width: 50%;
+        width: 80%;
         margin:auto;
-        height:100vh;
         border:1px solid #dbdbdb;
-        padding:1em 1em;
+        padding:1em 3em;
+    }
+    img{
+        width:30%;
+        border-radius: 1em;
+        margin-top:1em;
+        
     }
 
     .post > h2{
@@ -25,8 +30,8 @@ const Styles = styled.div`
         color:#7f7f7f;
     }
     .desc{
-        font-size:1em;
-        font-weight:600;
+        font-size:1.3em;
+        font-weight:400;
     }
 
     .breadcrumb{
@@ -34,6 +39,39 @@ const Styles = styled.div`
         text-align:center;
         margin:0;
     }
+    @media only screen and (max-width: 768px) {
+        .post{
+            width: 100%;
+            border:1px solid #dbdbdb;
+            padding:1em 3em;
+        }
+        img{
+            width:100%;
+            border-radius: 1em;
+            margin-top:1em;
+        }
+    
+        .post > h2{
+            font-weight:600;
+            font-size:2em;
+        }
+        .post > small{
+            font-weight:600;
+            color:#7f7f7f;
+        }
+        .desc{
+            font-size:1.1em;
+            font-weight:400;
+        }
+    
+        .breadcrumb{
+            background-color:#f7f7f7;
+            text-align:center;
+            margin:0;
+            font-size:0.7em;
+        }
+        
+      }
 `;
 
 function Post(props) {

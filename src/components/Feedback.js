@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 const FeedbackContainer = styled.div`
         color:#151515;
+        background-color:#f7f7f7;
         text-decoration:underline;
         text-align:center;
         padding:1em 0;

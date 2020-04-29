@@ -35,7 +35,6 @@ backface-visibility: hidden;
     .post-title{
         color:#e1e1e1;
         font-size:25px;
-        text-decoration:underline;
         overflow-wrap:break-word;
     }
     
@@ -66,8 +65,12 @@ backface-visibility: hidden;
 
     @media only screen and (max-width: 992px) {
         .post-card{
-            width:80%;
+            width:90%;
             margin:0 auto;
+        }
+        .post-card > h2{
+            font-size:1em;
+            text-decoration:none;
         }
         .post-desc{
             width:100%;
