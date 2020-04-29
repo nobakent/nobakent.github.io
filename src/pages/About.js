@@ -98,7 +98,7 @@ const Styles = styled.div`
             margin-bottom:0.5em;
         }
         .desc{
-            font-weight:200;
+            font-weight:400;
             font-size:1.1em;
             width:90%;
             margin:0 auto;

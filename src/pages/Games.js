@@ -15,7 +15,7 @@ function Games() {
             <div>
                 <Hero image={nolaImg} 
                       title="Nola Swifty."
-                      description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis pariatur ut qui animi quaerat consequatur."
+                      description="How fast are you or how strong are your reflexes? Nola wants to get rid of the deadly enemies one by one and reach the diamonds. Can you help Nola?"
                       store="android"
                       storeUrl="https://play.google.com/store/apps/details?id=com.nobakent.nolaswifty&hl=en"/>
                 <BlogPreview />

@@ -31,7 +31,6 @@ backface-visibility: hidden;
            h3{
                font-size:1.5em;
            }
-            
           }
         
         `;
