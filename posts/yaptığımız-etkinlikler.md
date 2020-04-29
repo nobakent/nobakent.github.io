@@ -1,9 +1,6 @@
 ---
-title: Yaptığımız Etkinlikler
+title: Merhaba Dünya
 author: Atakan Karaçalı
 date: 2020-04-29T01:17:21.626Z
 ---
-Yaptığımız Etkinlikler
-1-) Trakya Üniversitesinde IoT Trakya Topluluğu bünyesinde okulumuzda öğrencilere Oyun Programlamaya Giriş Eğitimi verdik. Bu kapsamda 100’den fazla katılımcının olduğu eğitimde 2 günde UNITY araçları tanıtıldı, kullanıldı ve basit bir oyun yapıldı.
-2-) Bir mobil oyun yapıldı. Google Play Store’de yayınlandı ve Üniversitemizde tanıtıldı.
-3-) Trakya Kariyer Fuar’ında 2 gün oyunumuzu tanıtan Stant açtık. Standımıza Sayın Edirne Valimiz, Sayın Rektörümüz, Sayın Trakya Üniversitesi Emniyet Müdürümüz, Sayın Edirne Başsavcımız, Sayın Trakya Üniversitesi Öğretim Üyeleri ve ziyaretçiler uğradı. Oyunumuz ilgi odağı oldu. İnsanlara teker teker denetip oyunumuzu oynattık. Çeşitli geri dönütler aldık ve oyunumuza yeni güncelleştirmeler getirdik.
+Bütün programcılar programlara merhaba dünya diyerek başlar. Bizler oyun sektörüne hızlı ve güzel bir giriş yaptık. Trakya Üniversitesi Bilgisayar Mühendisliği 3.Sınıf öğrencilerinden 6 kişilik bir ekibiz. Yaptığımız iş günümüz oyun sektöründeki eksikler ve bizim hayal gücümüzün birleşimi olan oyunlar. Trakya Üniversitesi Teknoparkında küçük ve sıcak bir odamız var ve burada çalışmalarımızı sürdürüyoruz. 6 Genç, 6 Fikir ve Sonsuz Hayal Gücümüzle ve azmimizle bir yerlere gelmeye çalışıyoruz.
