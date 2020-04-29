@@ -1,12 +1,13 @@
 import React from 'react'
-import { Redirect } from "react-router-dom"
+import {  Link, Redirect } from "react-router-dom"
+import { Breadcrumb } from 'react-bootstrap'
 import postlist from '../posts.json'
 import Markdown from 'react-markdown'
 import styled from 'styled-components'
 
 const Styles = styled.div`
-    margin:2em 0;
-
+    margin-bottom:1em;
+    background-color:#f7f7f7;
     .post{
         width: 50%;
         margin:auto;
@@ -26,6 +27,12 @@ const Styles = styled.div`
     .desc{
         font-size:1em;
         font-weight:600;
+    }
+
+    .breadcrumb{
+        background-color:#f7f7f7;
+        text-align:center;
+        margin:0;
     }
 `;
 
@@ -48,12 +55,16 @@ function Post(props) {
     })
     if (postExist === false) {
         return <Redirect to="/404" />
-
     }
     console.log(fetchedPost)
     return (
         <Styles>
+            
             <div className="post">
+            <Breadcrumb>
+                <Breadcrumb.Item><Link to ='/blog'>Blog</Link></Breadcrumb.Item>
+                <Breadcrumb.Item active>{fetchedPost.title}</Breadcrumb.Item>
+            </Breadcrumb>
                 <h2>{fetchedPost.title}</h2>
                 <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
                 <hr />

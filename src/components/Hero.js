@@ -13,8 +13,8 @@ const Styles = styled.div`
         margin:0;
     }
     .jumbo-image{
-        width:25em;
-        margin-left:5em;
+        width:12em;
+        margin-left:10em;
     }
     a{
         transition: all .2s ease-in-out;
@@ -37,7 +37,7 @@ const Styles = styled.div`
         font-size:25px;
     }
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 768px) {
         .jumbo-text{
             text-align:center;
             margin-top:1em;
@@ -52,13 +52,13 @@ const Styles = styled.div`
             margin-bottom:10px;
         }
         .jumbo-image{
-            width:25em;
             margin:0 auto;
         }
         a{
             width:80% !important;
             margin:0 auto;
         }
+        
       }
     
 `;
@@ -69,8 +69,8 @@ function Hero(props) {
             <Jumbotron fluid>
                 <Container className="jumbo-container align-content-center">
                     <Row>
-                        <Col>
-                            <Image className="jumbo-image" src={props.image} rounded />
+                        <Col className="text-center">
+                            <Image className="jumbo-image" src={props.image}/>
                         </Col>
                         <Col className="jumbo-text">
                             <h1 className="jumbo-title">{props.title}</h1>
@@ -78,7 +78,7 @@ function Hero(props) {
                             <MobileStoreButton className="store-button"
                                 store={props.store}
                                 url={props.storeUrl}
-                                height={80}
+                                width={250}
                                 linkProps={{ title: 'Link to App' }}
                                 />
                         </Col>

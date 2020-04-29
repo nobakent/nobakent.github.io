@@ -19,11 +19,20 @@ const FeedbackContainer = styled.div`
             background-color:#151515;
             margin-top:9px;
             border-radius:2em;
-            transition: all .2s ease-in-out;
+            transition: all 0.15s ease-in-out;
+transform: translateZ(0);
+backface-visibility: hidden;
         }
         button:hover{
-            transform: scale(1.1);
+            transform: scale(1.03);
         }
+        @media only screen and (max-width: 992px) {
+           h3{
+               font-size:1.5em;
+           }
+            
+          }
+        
         `;
 
 function Feedback() {

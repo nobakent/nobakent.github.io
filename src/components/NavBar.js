@@ -22,9 +22,7 @@ const Styles = styled.div`
         font-weight:400;
         transition: all .1s ease-in-out;
     }
-    .nav-link:hover{
-        transform: scale(1.05);
-    }
+   
 `;
 
 function NavBar() {

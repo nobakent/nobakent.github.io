@@ -14,14 +14,17 @@ function PostListThumb() {
                 postlist.slice(0, 3).map((post, i) => {
                     return (
                         <Col sm={12} md={4} lg={4} key={i}>
-                            <div className="post-card" as ={Link} to='/'>
-                                    <h2 className="post-title"><Link to={`/post/${post.id}`}>{post.title}</Link></h2>
+                            <Link to={`/post/${post.id}`}>
+                            <div className="post-card" >
+                                    <h2 className="post-title">{post.title}</h2>
                                     <Markdown className="post-desc" source={excerptList[i]} escapeHtml={false} />
-                                    <small className="post-read"><Link to={`/post/${post.id}`}>Read More...</Link></small>
+                                    <small className="post-read">>Read More...</small>
                                     <hr />
                                     <small className="post-published"> {post.date}</small>
                             </div>
+                            </Link>
                         </Col>
+
                     )
                 })
             }

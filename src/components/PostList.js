@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Row, Col } from 'react-bootstrap'
 import postlist from '../posts.json'
 import Markdown from 'react-markdown'
 
@@ -10,20 +11,25 @@ function PostList() {
 
     return (
             <div className="postlist">
-                <h1 className="title">All Posts</h1>
+                <Row>
                 {postlist.length &&
                     postlist.map((post, i) => {
                         return (
-                            <div key={i} className="post-card">
-                                <h2><Link to={`/post/${post.id}`}>{post.title}</Link></h2>
-                                <small>Published on {post.date} by {post.author}</small>
-                                <hr />
-                                <Markdown source={excerptList[i]} escapeHtml={false} />
-                                <small><Link to={`/post/${post.id}`}>Read More...</Link></small>
-                            </div>
+                        <Col sm={12} md={4} lg={6}  key={i}>
+                            <Link to={`/post/${post.id}`}>
+                                <div key={i} className="post-card">
+                                    <h2>{post.title}</h2>
+                                    <small>Published on {post.date} by {post.author}</small>
+                                    <hr />
+                                    <Markdown source={excerptList[i]} escapeHtml={false} />
+                                    <small></small>
+                                </div>
+                                </Link>
+                                </Col>
                         )
                     })
                 }
+                </Row>
             </div>
 
     )

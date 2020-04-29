@@ -23,6 +23,13 @@ const Styles = styled.div`
         font-size:1em;
         padding:1em;
         width:20em;
+        border:1px solid #444444;
+        transition: all 0.15s ease-in-out;
+transform: translateZ(0);
+backface-visibility: hidden;
+    }
+    .post-card:hover{
+        transform: scale(1.01, 1.01);
     }
 
     .post-title{
@@ -35,7 +42,7 @@ const Styles = styled.div`
 
     .post-desc{
         color:#9d9d9d;
-        width:60%;
+        width:90%;
         font-size:15px;
         overflow-wrap:break-word;
     }
@@ -52,6 +59,9 @@ const Styles = styled.div`
         color:#171717;
         background-color:#171717;
         border:none;
+    }
+    a{
+        text-decoration:none;
     }
 
     @media only screen and (max-width: 992px) {
