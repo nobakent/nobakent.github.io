@@ -20,7 +20,7 @@ const Styles = styled.div`
         transition: all .2s ease-in-out;
     }
     a:hover{
-        transform: scale(1.04);
+        transform: scale(1);
     }
     .jumbo-text{
         margin:auto 0;
