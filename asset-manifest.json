@@ -1,36 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.52f0c15c.chunk.css",
-    "main.js": "/static/js/main.09a9434b.chunk.js",
-    "main.js.map": "/static/js/main.09a9434b.chunk.js.map",
+    "main.js": "/static/js/main.be284dac.chunk.js",
+    "main.js.map": "/static/js/main.be284dac.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.591cd1af.js",
     "runtime-main.js.map": "/static/js/runtime-main.591cd1af.js.map",
     "static/css/2.8e9f1564.chunk.css": "/static/css/2.8e9f1564.chunk.css",
-    "static/js/2.daec9f23.chunk.js": "/static/js/2.daec9f23.chunk.js",
-    "static/js/2.daec9f23.chunk.js.map": "/static/js/2.daec9f23.chunk.js.map",
+    "static/js/2.7f7cc7e3.chunk.js": "/static/js/2.7f7cc7e3.chunk.js",
+    "static/js/2.7f7cc7e3.chunk.js.map": "/static/js/2.7f7cc7e3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.30a3c42b1024552f6f7fc2873c0c8e97.js": "/precache-manifest.30a3c42b1024552f6f7fc2873c0c8e97.js",
+    "precache-manifest.446f630bee0ab85c60b426d42853b26e.js": "/precache-manifest.446f630bee0ab85c60b426d42853b26e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8e9f1564.chunk.css.map": "/static/css/2.8e9f1564.chunk.css.map",
     "static/css/main.52f0c15c.chunk.css.map": "/static/css/main.52f0c15c.chunk.css.map",
-    "static/js/2.daec9f23.chunk.js.LICENSE.txt": "/static/js/2.daec9f23.chunk.js.LICENSE.txt",
+    "static/js/2.7f7cc7e3.chunk.js.LICENSE.txt": "/static/js/2.7f7cc7e3.chunk.js.LICENSE.txt",
     "static/media/atakan.jpg": "/static/media/atakan.3f9ad3da.jpg",
-    "static/media/bg.jpg": "/static/media/bg.a02b61b7.jpg",
-    "static/media/coming-soon.jpg": "/static/media/coming-soon.4415fe73.jpg",
+    "static/media/bg.jpg": "/static/media/bg.c3e2200d.jpg",
     "static/media/didem.jpg": "/static/media/didem.7b7c0ed5.jpg",
     "static/media/emine.jpg": "/static/media/emine.8b23baac.jpg",
-    "static/media/glowing-numbers.jpeg": "/static/media/glowing-numbers.c0b758f7.jpeg",
     "static/media/hasan_kamilcelebi.jpg": "/static/media/hasan_kamilcelebi.8195bc33.jpg",
     "static/media/husein_kantarci.jpg": "/static/media/husein_kantarci.fd38cf0c.jpg",
     "static/media/mert_karatas.jpg": "/static/media/mert_karatas.a8a5d9f0.jpg",
-    "static/media/nola-1.png": "/static/media/nola-1.fbe12974.png",
+    "static/media/nola-1.png": "/static/media/nola-1.29e2c7b9.png",
     "static/media/index.css": "/static/media/poppins-latin-900italic.f3c803b2.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.591cd1af.js",
     "static/css/2.8e9f1564.chunk.css",
-    "static/js/2.daec9f23.chunk.js",
+    "static/js/2.7f7cc7e3.chunk.js",
     "static/css/main.52f0c15c.chunk.css",
-    "static/js/main.09a9434b.chunk.js"
+    "static/js/main.be284dac.chunk.js"
   ]
 }

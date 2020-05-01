@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dc2c0d3d7525a22ef9a45c2e675ea88",
+    "revision": "0ead6ffd7db5b78bb0ff692f57eb2370",
     "url": "/index.html"
   },
   {
-    "revision": "39677b4e908142b2c9fd",
+    "revision": "e8e844b9fcc5da6f3fcd",
     "url": "/static/css/2.8e9f1564.chunk.css"
   },
   {
-    "revision": "d7b3092ddb38b7e6e026",
+    "revision": "7a3d47a7544d9757f011",
     "url": "/static/css/main.52f0c15c.chunk.css"
   },
   {
-    "revision": "39677b4e908142b2c9fd",
-    "url": "/static/js/2.daec9f23.chunk.js"
+    "revision": "e8e844b9fcc5da6f3fcd",
+    "url": "/static/js/2.7f7cc7e3.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/static/js/2.daec9f23.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7f7cc7e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7b3092ddb38b7e6e026",
-    "url": "/static/js/main.09a9434b.chunk.js"
+    "revision": "7a3d47a7544d9757f011",
+    "url": "/static/js/main.be284dac.chunk.js"
   },
   {
     "revision": "33ffc2680a8e69875d5a",
@@ -32,12 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/atakan.3f9ad3da.jpg"
   },
   {
-    "revision": "a02b61b739c936680d660fd60fe156d8",
-    "url": "/static/media/bg.a02b61b7.jpg"
-  },
-  {
-    "revision": "4415fe7302edfd4b96501bd68745e14d",
-    "url": "/static/media/coming-soon.4415fe73.jpg"
+    "revision": "c3e2200ddd794af762cc3d36f7a714d5",
+    "url": "/static/media/bg.c3e2200d.jpg"
   },
   {
     "revision": "7b7c0ed5c683749834a3f07def52aab5",
@@ -46,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8b23baac7d56d5aa76e135ab18caf39c",
     "url": "/static/media/emine.8b23baac.jpg"
-  },
-  {
-    "revision": "c0b758f7502979411d16f505bc5bce53",
-    "url": "/static/media/glowing-numbers.c0b758f7.jpeg"
   },
   {
     "revision": "8195bc33c477a9a38ec3251cf552a92a",
@@ -64,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mert_karatas.a8a5d9f0.jpg"
   },
   {
-    "revision": "fbe129744e793a12314a8c6e1cde9388",
-    "url": "/static/media/nola-1.fbe12974.png"
+    "revision": "29e2c7b9be16eab9f7fb6a65eb295888",
+    "url": "/static/media/nola-1.29e2c7b9.png"
   },
   {
     "revision": "46a15b4fc54cfca883f84d6dd080cd3d",
