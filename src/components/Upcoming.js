@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row,Col,Card,Container} from 'react-bootstrap'
+import {Row,Col,Card} from 'react-bootstrap'
 import styled from 'styled-components'
 import glowingNumbers from '../assets/upcoming/glowing-numbers.jpeg'
 import comingSoon from '../assets/upcoming/coming-soon.jpg'
