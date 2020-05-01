@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 
+import Home from './pages/Home';
 import Games from './pages/Games';
 import Blog from './pages/Blog'
 import Contact from './pages/Contact';
@@ -19,7 +20,8 @@ function App() {
     <div className="App">
       <NavBar />
         <Switch>
-          <Route exact path="/" component={Games} />
+          <Route exact path="/" component={Home} />
+          <Route path="/games" component={Games} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} /> 
           <Route path="/about" component={About} />

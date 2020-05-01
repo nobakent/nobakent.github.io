@@ -1,30 +1,29 @@
 import React from 'react'
-import nolaImg from '../assets/nola-1.png';
-import styled from 'styled-components';
-import Hero from '../components/Hero'
-import BlogPreview from '../components/BlogThumb'
-import Feedback from '../components/Feedback'
-import Upcoming from '../components/Upcoming';
+import {Container} from 'react-bootstrap'
+import styled from 'styled-components'
 
 const Styles = styled.div`
-    overflow-x: hidden;
-`;
+    background-color:#f7f7f7;
+    .container{
+        height:50vh;
+        display:flex;
+    }
+    h1{
+        align-self:center;
+        margin:0 auto;
+        width:70%;
+    }
+        
+    `;
 
-function Games() {
+function FeaturedGames() {
     return (
         <Styles>
-            <div>
-                <Hero image={nolaImg} 
-                      title="Nola Swifty."
-                      description="How fast are you or how strong are your reflexes? Nola wants to get rid of the deadly enemies one by one and reach the diamonds. Can you help Nola?"
-                      store="android"
-                      storeUrl="https://play.google.com/store/apps/details?id=com.nobakent.nolaswifty&hl=en"/>
-                <Upcoming />
-                <BlogPreview />
-                <Feedback />
-            </div>
+            <Container className="text-center">
+                <h1 >Coming Soon</h1>                
+                </Container>
         </Styles>
     )
 }
 
-export default Games;
+export default FeaturedGames;

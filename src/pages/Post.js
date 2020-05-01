@@ -97,9 +97,9 @@ function Post(props) {
     console.log(fetchedPost)
     return (
         <Styles>
-            
             <div className="post">
             <Breadcrumb>
+                <Breadcrumb.Item><Link to ='/'>Home</Link></Breadcrumb.Item>
                 <Breadcrumb.Item><Link to ='/blog'>Blog</Link></Breadcrumb.Item>
                 <Breadcrumb.Item active>{fetchedPost.title}</Breadcrumb.Item>
             </Breadcrumb>
