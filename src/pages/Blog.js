@@ -9,6 +9,9 @@ const Styles = styled.div`
         padding:5em 7em;
         text-align: center;
     }
+    img{
+        display:none;
+    }
     .post-card{
         background-color:#009688;
         color:#eeeeee;
