@@ -10,12 +10,20 @@ const Styles = styled.div`
     a{
         color:#e1e1e1;
     }
+    
     .postlist{
-        padding:2em 0;
+        padding:2em 0 4em 0;
         width:80%;
         margin: auto;
         text-align: center;
         align-self:center;
+    }
+    .text-white{
+        color:#ffffff;
+        margin-top:1em;
+        marign-bottom:0;
+        text-transform:uppercase;
+        font-weight:400;
     }
 
     .post-card{
@@ -29,7 +37,7 @@ transform: translateZ(0);
 backface-visibility: hidden;
     }
     .post-card:hover{
-        transform: scale(1.01, 1.01);
+        background-color:#3d3d3d;
     }
 
     .post-title{
@@ -56,7 +64,7 @@ backface-visibility: hidden;
     hr{
         margin:0;
         color:#171717;
-        background-color:#171717;
+        background-color:#ffffff;
         border:none;
     }
     a{
@@ -75,12 +83,26 @@ backface-visibility: hidden;
         .post-desc{
             width:100%;
         }
+
+        .text-white{
+            font-size:2em;
+        }
+        .postlist{
+            padding:0 0 2em 0;
+            width:80%;
+            margin: auto;
+            text-align: center;
+            align-self:center;
+        }
       }
 `;
 
 function BlogThumb() {
     return (
         <Styles>
+            <Row className="justify-content-center">
+                <h1 className="text-white">Latest Blogs</h1>
+            </Row>
             <Row>
                 <Col>
                     <PostListThumb />
