@@ -1,34 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.52f0c15c.chunk.css",
-    "main.js": "/static/js/main.be284dac.chunk.js",
-    "main.js.map": "/static/js/main.be284dac.chunk.js.map",
+    "main.js": "/static/js/main.e3711518.chunk.js",
+    "main.js.map": "/static/js/main.e3711518.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.591cd1af.js",
     "runtime-main.js.map": "/static/js/runtime-main.591cd1af.js.map",
     "static/css/2.8e9f1564.chunk.css": "/static/css/2.8e9f1564.chunk.css",
-    "static/js/2.7f7cc7e3.chunk.js": "/static/js/2.7f7cc7e3.chunk.js",
-    "static/js/2.7f7cc7e3.chunk.js.map": "/static/js/2.7f7cc7e3.chunk.js.map",
+    "static/js/2.df2e77a9.chunk.js": "/static/js/2.df2e77a9.chunk.js",
+    "static/js/2.df2e77a9.chunk.js.map": "/static/js/2.df2e77a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.446f630bee0ab85c60b426d42853b26e.js": "/precache-manifest.446f630bee0ab85c60b426d42853b26e.js",
+    "precache-manifest.9260c85cdfd9389b454d625a0fd53aa0.js": "/precache-manifest.9260c85cdfd9389b454d625a0fd53aa0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8e9f1564.chunk.css.map": "/static/css/2.8e9f1564.chunk.css.map",
     "static/css/main.52f0c15c.chunk.css.map": "/static/css/main.52f0c15c.chunk.css.map",
-    "static/js/2.7f7cc7e3.chunk.js.LICENSE.txt": "/static/js/2.7f7cc7e3.chunk.js.LICENSE.txt",
+    "static/js/2.df2e77a9.chunk.js.LICENSE.txt": "/static/js/2.df2e77a9.chunk.js.LICENSE.txt",
     "static/media/atakan.jpg": "/static/media/atakan.3f9ad3da.jpg",
     "static/media/bg.jpg": "/static/media/bg.c3e2200d.jpg",
     "static/media/didem.jpg": "/static/media/didem.7b7c0ed5.jpg",
     "static/media/emine.jpg": "/static/media/emine.8b23baac.jpg",
+    "static/media/glowing-numbers.jpeg": "/static/media/glowing-numbers.01f5c827.jpeg",
     "static/media/hasan_kamilcelebi.jpg": "/static/media/hasan_kamilcelebi.8195bc33.jpg",
     "static/media/husein_kantarci.jpg": "/static/media/husein_kantarci.fd38cf0c.jpg",
     "static/media/mert_karatas.jpg": "/static/media/mert_karatas.a8a5d9f0.jpg",
     "static/media/nola-1.png": "/static/media/nola-1.29e2c7b9.png",
+    "static/media/nola-swifty.jpg": "/static/media/nola-swifty.9ba763b8.jpg",
     "static/media/index.css": "/static/media/poppins-latin-900italic.f3c803b2.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.591cd1af.js",
     "static/css/2.8e9f1564.chunk.css",
-    "static/js/2.7f7cc7e3.chunk.js",
+    "static/js/2.df2e77a9.chunk.js",
     "static/css/main.52f0c15c.chunk.css",
-    "static/js/main.be284dac.chunk.js"
+    "static/js/main.e3711518.chunk.js"
   ]
 }
