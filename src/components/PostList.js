@@ -22,7 +22,7 @@ function PostList() {
                                     <small>Published on {post.date} by {post.author}</small>
                                     <hr />
                                     <Markdown source={excerptList[i]} escapeHtml={false} />
-                                    <small></small>
+                                    <small>Read More..</small>
                                 </div>
                                 </Link>
                                 </Col>

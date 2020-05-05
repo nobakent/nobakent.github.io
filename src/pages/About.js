@@ -6,7 +6,7 @@ import mertk from '../assets/mert_karatas.jpg'
 import didem from '../assets/didem.jpg'
 import emine from '../assets/emine.jpg'
 import atakan from '../assets/atakan.jpg'
-import { Row,CardColumns,Card,Button,Jumbotron,Container} from 'react-bootstrap'
+import { Row,Col,Card,Button,Jumbotron,Container} from 'react-bootstrap'
 const Styles = styled.div`
     overflow-x: hidden;
     background-color:#f7f7f7;
@@ -15,7 +15,7 @@ const Styles = styled.div`
     }
     .team{
         background-color:#262626;
-        padding:1em;
+        padding:1em 4em;
     }
     .team > .title{
         font-weight:400;
@@ -25,7 +25,7 @@ const Styles = styled.div`
     .title{
         text-align:center;
         font-weight:700;
-        font-size:4em;
+        font-size:3em;
         margin-bottom:0.5em;
     }
     .desc{
@@ -36,10 +36,11 @@ const Styles = styled.div`
         padding:1em;
     }
     .card{
+        float: none;
+        display: block;
+        margin: 1em auto;
         text-align:center;
-        padding:1em 0;
-        margin-bottom:1em;
-        background-color:#ffffff;
+        padding-top:1em;
     }
     .card-img-top{
         width:150px;
@@ -48,27 +49,20 @@ const Styles = styled.div`
         margin:0 auto;
     }
 
-    .card-columns{
-        padding:2em 15em;
-    }
     a{
         text-decoration:none;
         color:#f7f7f7;
     }
 
     @media only screen and (max-width: 992px) {
-        .card-columns{
-            padding:2em 0;
-            width:90%;
-            margin:0 auto;
-            column-count: 2;
-        }
-        .card{
-            margin-bottom:2em;
-        }
         .team > .title{
             font-weight:400;
             font-size:2em;
+        }
+
+        .team{
+            background-color:#262626;
+            padding:1em ;
         }
         
         .title{
@@ -82,7 +76,6 @@ const Styles = styled.div`
             font-size:1.5em;
             width:90%;
             margin:0 auto;
-           
       }
 
     @media only screen and (max-width: 768px) {
@@ -104,16 +97,6 @@ const Styles = styled.div`
             margin:0 auto;
             padding:1em;
         }
-        .card-columns{
-            column-count: 1;
-            width:80%;
-            margin:0 auto;
-            justify-content:center;
-        }
-        .card{
-            margin-bottom:2em;
-        }
-        
       }
 `;
 
@@ -131,8 +114,8 @@ function About() {
             </Jumbotron>
             <div className="team">
             <h2 className="title text-white ">MEET THE TEAM</h2>
-            <Row>
-                <CardColumns>
+            <Row  className="justify-content-center">
+                <Col sm={12} md={4} lg={4} className="center-block">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={atakan} />
                     <Card.Body>
@@ -153,6 +136,8 @@ function About() {
                         <Button variant="dark"><a href='https://www.linkedin.com/in/hasan-kamil%C3%A7elebi-6083821a3/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
+                </Col>
+                <Col sm={12} md={4} lg={4} className="center-block">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={huseink} />
                     <Card.Body>
@@ -163,6 +148,7 @@ function About() {
                         <Button variant="dark"><a href='https://www.linkedin.com/in/h%C3%BCsein-kantarci-44861b1a2/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
+
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={didem}/>
                     <Card.Body>
@@ -173,6 +159,8 @@ function About() {
                         <Button variant="dark"><a href='https://www.linkedin.com/in/didem-%C3%A7i%C3%A7ek-kara%C3%B6z-132a56148/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
+                </Col>
+                <Col sm={12} md={4} lg={4} className="center-block">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={mertk} />
                     <Card.Body>
@@ -193,7 +181,7 @@ function About() {
                         <Button variant="dark"><a href='https://www.linkedin.com/in/emine-tsiligkir-72b2251a3/' target="_blank" rel="noopener noreferrer">Contact</a></Button>
                     </Card.Body>
                 </Card>
-                </CardColumns>
+                </Col>
             </Row>
             </div>
            

@@ -12,12 +12,13 @@ const Styles = styled.div`
     img{
         display:none;
     }
+   
     .post-card{
-        background-color:#009688;
-        color:#eeeeee;
+        background-color:#f7f7f7;
+        color:#171717;
         text-align:left;
         font-family: 'Poppins', sans-serif;
-        border:1px solid #009688;
+        border:1px solid #171717;
         border-radius:1em;
         margin-bottom:20px;
         padding:2em;
@@ -30,16 +31,15 @@ transform: translateZ(0);
 backface-visibility: hidden;
 }
     .post-card:hover{
-        transform: scale(1.01, 1.01);
+        background-color:#303030;
+        color:#f7f7f7;
     }
-    .post-card:hover::after {
-        opacity: 1;
-      }
+   
     a{
         text-decoration:none;
-        color:#eeeeee;
+        color:#171717;
     }
-
+   
     @media only screen and (max-width: 992px) {
         .postlist{
             padding:1em;
