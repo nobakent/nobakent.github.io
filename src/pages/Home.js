@@ -15,7 +15,7 @@ function Home() {
             <div>
                 <Hero image={nolaImg} 
                       title="Nola Swifty."
-                      description="How fast are you or how strong are your reflexes? Nola wants to get rid of the deadly enemies one by one and reach the diamonds. Can you help Nola?"
+                      description="How fast are you or how strong are your reflexes? Nola wants to get rid of the deadly enemies one by one and reach her home. Can you help Nola?"
                       store="android"
                       storeUrl="https://play.google.com/store/apps/details?id=com.nobakent.nolaswifty&hl=en"/>
                 <BlogPreview />
