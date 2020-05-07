@@ -20,12 +20,12 @@ const Styles = styled.div`
         margin: 0 auto;
         margin-bottom:1em;
         -webkit-box-shadow: -8px 11px 15px -7px rgba(0,0,0,0.4);
--moz-box-shadow: -8px 11px 15px -7px rgba(0,0,0,0.4);
-box-shadow: -8px 11px 15px -7px rgba(0,0,0,0.4);
-transition: all 0.15s ease-in-out;
-transform: scale(1, 1);
-transform: translateZ(0);
-backface-visibility: hidden;
+        -moz-box-shadow: -8px 11px 15px -7px rgba(0,0,0,0.4);
+        box-shadow: -8px 11px 15px -7px rgba(0,0,0,0.4);
+        transition: all 0.15s ease-in-out;
+        transform: scale(1, 1);
+        transform: translateZ(0);
+        backface-visibility: hidden;
     }
     .card:hover{
         background-color:#e0e0e0!important;
@@ -86,21 +86,6 @@ function FeaturedGames() {
                 </Row>
                 <Row className="justify-content-center">
                     <Col sm={12} md={6} lg={6} className="center-block">
-                    <a href="https://play.google.com/store/apps/details?id=com.nobakent.nolaswifty&hl=en" target="_blank" rel="noopener noreferrer">
-                        <Card className="bg-light">
-                            <Card.Img  src={nolaSwifty} alt="Card image" />
-                            <Badge variant="primary">Out Now</Badge>{' '}
-                            <Card.Body>
-                                <Card.Title >Nola Swifty</Card.Title>
-                                <Card.Text>
-                                    On Google Play
-                                </Card.Text>
-                                <Card.Text className="year">2020</Card.Text>
-                                </Card.Body>
-                        </Card>
-                    </a>
-                    </Col>
-                    <Col sm={12} md={6} lg={6} className="center-block">
                     <Link to="#">
                         <Card className="bg-light">
                             <Card.Img  src={glowingNumbers} alt="Card image" />
@@ -114,6 +99,21 @@ function FeaturedGames() {
                                 </Card.Body>
                         </Card>
                         </Link>
+                    </Col>
+                    <Col sm={12} md={6} lg={6} className="center-block">
+                    <a href="https://play.google.com/store/apps/details?id=com.nobakent.nolaswifty&hl=en" target="_blank" rel="noopener noreferrer">
+                        <Card className="bg-light">
+                            <Card.Img  src={nolaSwifty} alt="Card image" />
+                            <Badge variant="primary">Out Now</Badge>{' '}
+                            <Card.Body>
+                                <Card.Title >Nola Swifty</Card.Title>
+                                <Card.Text>
+                                    On Google Play
+                                </Card.Text>
+                                <Card.Text className="year">2020</Card.Text>
+                                </Card.Body>
+                    </Card>
+                    </a>
                     </Col>
                 </Row>
             </Container>
