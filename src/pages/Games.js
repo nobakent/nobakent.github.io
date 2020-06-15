@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import nolaSwifty from '../assets/featured-games/nola-swifty.jpg'
 import glowingNumbers from '../assets/featured-games/glowing-numbers.jpeg'
+import peskyNinja from '../assets/featured-games/pesky-ninja.jpeg'
 import styled from 'styled-components'
 
 const Styles = styled.div`
@@ -38,6 +39,7 @@ const Styles = styled.div`
     .card-text{
         font-size:1.2em;
     }
+   
     .year{
         position:absolute;
         right:10px;
@@ -85,6 +87,21 @@ function FeaturedGames() {
                     <h1 className="title">Featured Games</h1>
                 </Row>
                 <Row className="justify-content-center">
+                    <Col sm={12} md={6} lg={6} className="center-block">
+                    <Link to="#">
+                        <Card className="bg-light">
+                            <Card.Img  src={peskyNinja} alt="Card image" />
+                            <Card.Body>
+                            <Badge variant="danger">Coming Soon</Badge>{' '}
+                                <Card.Title >Pesky Ninja</Card.Title>
+                                <Card.Text>
+                                    Coming Soon
+                                </Card.Text>
+                                <Card.Text className="year">2020</Card.Text>
+                                </Card.Body>
+                        </Card>
+                        </Link>
+                    </Col>
                     <Col sm={12} md={6} lg={6} className="center-block">
                     <Link to="#">
                         <Card className="bg-light">
