@@ -19,7 +19,7 @@ function PostList() {
                             <Link to={`/post/${post.id}`}>
                                 <div key={i} className="post-card">
                                     <h2>{post.title}</h2>
-                                    <small>Published on {post.date} by {post.author}</small>
+                                    <small>Published on {post.date} by <strong>{post.author}</strong></small>
                                     <hr />
                                     <Markdown source={excerptList[i]} escapeHtml={false} />
                                     <small>Read More..</small>
