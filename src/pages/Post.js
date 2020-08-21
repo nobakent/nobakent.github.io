@@ -15,10 +15,10 @@ const Styles = styled.div`
         padding:1em 3em;
     }
     img{
-        width:30%;
+        width:70%;
         border-radius: 1em;
         margin-top:1em;
-        
+        margin-bottom:1em;
     }
 
     .post > h2{
@@ -49,6 +49,7 @@ const Styles = styled.div`
             width:100%;
             border-radius: 1em;
             margin-top:1em;
+            margin-bottom:1em;
         }
     
         .post > h2{
@@ -104,7 +105,7 @@ function Post(props) {
                 <Breadcrumb.Item active>{fetchedPost.title}</Breadcrumb.Item>
             </Breadcrumb>
                 <h2>{fetchedPost.title}</h2>
-                <small>Published on {fetchedPost.date} by {fetchedPost.author}</small>
+                <small>Published on {fetchedPost.date} by <strong>{fetchedPost.author}</strong></small>
                 <hr />
                 <Markdown className="desc" source={fetchedPost.content} escapeHtml={false} />
             </div>
